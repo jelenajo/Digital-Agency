@@ -1,0 +1,146 @@
+/**Variables*/
+:root {
+    --white:#fff;
+    --black: #000;
+    --violet: rgba(65,42,107);
+    --yellow:#fadb61;
+    --gray: #f8f8f8;
+}
+/**Basic style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bolder;
+}
+.btn-primary {
+    background: var(--yellow)!important;
+    border: none;
+}
+.btn-primary:hover {
+    background: var(--black)!important;
+}
+.heading {
+    color: var(--violet);
+    font-size: 3rem;
+}
+/*Nav Bar*/
+.bg-light {
+    background:var(--violet) !important;
+}
+.navbar-brand {
+    color: var(--gray);
+}
+.navbar-brand:hover {
+    color: var(--yellow);
+}
+.navbar-nav .nav-link {
+    color: var(--gray);
+}
+.navbar-nav .nav-link:hover {
+    color: var(--yellow);
+}
+/*Slider*/
+.carousel-caption {
+    top: 60%;
+}
+/*About Us*/
+.underline {
+    width: 20%;
+    background: var(--yellow);
+    height: 9px;
+    margin: 20px auto;
+}
+.about .lead {
+    font-style: italic;
+}
+.about img {
+    border-radius: 40px;
+}
+/*Works*/
+.works {
+    padding: 50px 0  ;
+    background: var(--gray);
+}
+.picture img {
+    width: 300px;
+    height: 150px;
+}
+.works .col-md-3 {
+    padding: 10px;
+}
+.picture img {
+    border-radius: 30px;
+}
+/*Flex*/
+.flex {
+    background-image: linear-gradient(rgba(65,42,107,0.8), rgba(65,42,107,0.8)),url(img/header2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    color: var(--yellow);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Services**/
+.services .carousel-caption {
+    margin-top: 80px;
+}
+.services .carousel-item .col-md-7 {
+    margin-top: 80px;
+}
+/**Partner*/
+.partners {
+    background-image: linear-gradient(rgba(65,42,107,0.8), rgba(65,42,107,0.8)),url(img/header2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.partners .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+/*Team*/
+.team img {
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+/*Form*/
+.form {
+    background: var(--gray);
+}
+.form .btn {
+    background-color: var(--violet) !important;
+    color: var(--yellow) !important;
+}
+.form .btn:hover {
+    background-color: var(--yellow)  !important;
+    color: var(--violet)  !important;
+}
+/*Contact*/
+.contact .bi {
+    font-size: 2rem;
+    color: var(--violet);
+}
+.contact .bi:hover {
+    color: var(--yellow);
+}
+/**Responsive*/
+@media (max-width:600px) {
+    .carousel-caption .display-2 {
+        font-size: 1.4rem;
+    }
+    .carousel-caption {
+        top: 1%;
+    }
+    
+    
+}
